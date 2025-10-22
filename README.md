@@ -10,12 +10,10 @@ The goal of the assignment was not only to produce a correct simulation, but als
 
 ## Objectives
 
-- Implement a correct and complete simulation of the pastry shop system.  
-- Achieve **optimal algorithmic performance** by minimizing time complexity.  
-- Use **efficient data structures** such as priority queues, balanced trees, hash maps, and queues.  
-- Maintain **low memory usage** while keeping the code modular and clear.  
+- Implement a correct and complete simulation of the pastry shop system according to the project specifications.
+- Optimize the solution to make the program as fast and as low memory consuming as possible.  
 
-The project was evaluated primarily on correctness, asymptotic efficiency, and design choices.
+The project was evaluated primarily on correctness, speed and memory consumption.
 
 ---
 
