@@ -272,7 +272,7 @@ int main(void){
 			while(car != ' ')
 				car = getc(stdin);
 
-			ordina(tempo);6
+			ordina(tempo);
 			tempo++;
 
 		}
