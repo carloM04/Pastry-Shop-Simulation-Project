@@ -1,4 +1,4 @@
-# Pasticceria Simulation — Politecnico di Milano (August 2024)
+# Pastry shop simulation — Politecnico di Milano (August 2024)
 
 ## Overview
 
