@@ -53,38 +53,28 @@ Each command prints a corresponding output message (e.g., `aggiunta`, `rifornito
 ## Delivery Logic
 
 At every multiple of the courier’s period, the program prints the list of orders loaded on the truck:
-<arrival_time><recipe_name><quatity)
+<arrival_time><recipe_name><quatity>
 
 Orders are selected in chronological order until the truck’s weight limit is reached, then loaded in decreasing order of weight (and by arrival time in case of ties).  
 If the truck is empty, the message `camioncino vuoto` is printed.
 
 ---
-
-## Algorithmic Design
-
-To ensure speed and scalability, the implementation was based on efficient data management principles:
-
-- **Hash tables** for constant-time access to recipes and ingredients.  
-- **Priority queues (min-heaps)** for selecting the nearest expiration date of ingredient lots.  
-- **FIFO queues** for pending orders.  
-- **Balanced structures** or sorting routines for courier loading operations.  
-
-This guarantees near-optimal performance in:
-- `O(log n)` for insertions and extractions from queues.  
-- `O(1)` for lookups in maps or dictionaries.  
-- Linear or sublinear complexity for all core operations.
-
----
-
 ## Testing
 
 The repository contains multiple test cases inside the tests folder.
+
+First download the `main.c` file. Open a terminal and compile the program:
+```bash
+gcc main.c -o main
+```
 
 Each pair defines an input scenario and the expected program output.
 
 To verify correctness:
 ```bash
-./final_program < tests/test_1.txt > my_output.txt
-diff my_output.txt tests/test_1_output.txt
+./main < ../tests/open1.txt > output_open1.txt
+diff output_open1.txt ../tests/test_1_output.txt
 ```
 If there are no differences, the implementation passes the test.
+
+
