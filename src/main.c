@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 #define HEAP_DIM 80000 
-#define MAX_CAR 20 
+#define MAX_CAR 256
 #define CATALOGO_HASH_SIZE 8192 
 #define MAGAZZINO_HASH_SIZE	1024 
 #define CATALOGO 0
