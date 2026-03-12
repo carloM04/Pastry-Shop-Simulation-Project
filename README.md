@@ -76,5 +76,5 @@ To verify correctness:
 diff output_open1.txt ../tests/test_1_output.txt
 ```
 If there are no differences, the implementation passes the test.
-
+These tests were provided to us to check the correctness of our program. Note however that the program was evaluated on tests that only the professors knew.
 
